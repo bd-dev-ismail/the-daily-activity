@@ -17,7 +17,7 @@ const Activitys = () => {
               The Daily Activity
             </h1>
             <p className="text-lg font-bold py-2">Start Your Morning</p>
-            <div className='grid grid-cols-3 gap-4 my-8'>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 my-8'>
               {activitys.map((activity) => (
                 <ActivityItem
                   activity={activity}

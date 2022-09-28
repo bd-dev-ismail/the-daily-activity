@@ -6,3 +6,8 @@
 .activity-container{
     margin-left: 80px;
 }
+@media only screen and(mix-width: 468px){
+    .parent{
+        grid-template-columns: 1fr;
+    }
+}
