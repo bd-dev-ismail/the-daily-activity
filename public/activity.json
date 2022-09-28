@@ -1,0 +1,51 @@
+[
+  {
+    "name": "Meditation",
+    "id": 1,
+    "dsc": "Amet minim mollit non deseruntit mollit non deseruntit  aliqua dolor do",
+    "Age": "20-25",
+    "time": "30m",
+    "image": "https://images.unsplash.com/reserve/YEc7WB6ASDydBTw6GDlF_antalya-beach-lulu.jpg?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1001&q=80"
+  },
+
+  {
+    "name": "Gym",
+    "id": 2,
+    "dsc": "Amet minim mollit non deseruntit mollit non deseruntit  aliqua dolor do",
+    "Age": "20-25",
+    "time": "40m",
+    "image": "https://images.unsplash.com/photo-1614928228253-dc09cbc3b11c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+  },
+  {
+    "name": "Breakfast",
+    "id": 3,
+    "dsc": "Amet minim mollit non deseruntit mollit non deseruntit  aliqua dolor do",
+    "Age": "20-25",
+    "time": "20m",
+    "image": "https://images.unsplash.com/photo-1486590868314-c6c18732d981?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+  },
+  {
+    "name": "Reading Book",
+    "id": 4,
+    "dsc": "Amet minim mollit non deseruntit mollit non deseruntit  aliqua dolor do",
+    "Age": "20-25",
+    "time": "25m",
+    "image": "https://images.unsplash.com/photo-1630343710506-89f8b9f21d31?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+  },
+  {
+    "name": "Wrok From Home",
+    "id": 5,
+    "dsc": "Amet minim mollit non deseruntit mollit non deseruntit  aliqua dolor do",
+    "Age": "20-25",
+    "time": "30m",
+    "image": "https://images.unsplash.com/photo-1583508915901-b5f84c1dcde1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+  },
+  {
+    "name": "Playing With Family",
+    "id": 6,
+    "dsc": "Amet minim mollit non deseruntit mollit non deseruntit  aliqua dolor do",
+    "Age": "20-25",
+    "time": "50m",
+    "image": "https://images.unsplash.com/photo-1577897113292-3b95936e5206?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=790&q=80"
+  }
+]
