@@ -10,7 +10,7 @@ const Activitys = () => {
           .then((data) => setActivitys(data));
     },[])
     return (
-      <div className="container mx-auto">
+      <div>
         <div className="parent">
           <div className="activity-container mt-20">
             <h1 className="text-3xl font-bold text-primary">
@@ -26,7 +26,7 @@ const Activitys = () => {
               ))}
             </div>
           </div>
-          <div className="info-container">
+          <div className="info-container bg-secondary">
             <InfoAdd></InfoAdd>
           </div>
         </div>

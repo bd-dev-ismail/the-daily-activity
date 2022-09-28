@@ -2,7 +2,7 @@ import React from 'react';
 import './InfoAdd.css';
 const InfoAdd = () => {
     return (
-        <div>
+        <div >
             <h3>I am Info</h3>
         </div>
     );
