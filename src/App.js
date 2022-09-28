@@ -4,8 +4,8 @@ import Activitys from './components/Activitys/Activitys';
 
 function App() {
   return (
-    <div className="App">
-      <Activitys/>
+    <div className="App bg-base-200">
+      <Activitys />
     </div>
   );
 }

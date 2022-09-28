@@ -15,7 +15,7 @@ const ActivityItem = ({activity}) => {
             Spend Time: <span className="font-bold">{time}</span>
           </p>
           <div className="card-actions">
-            <button className="btn btn-primary btn-sm w-full absolute bottom-0 left-0 h-12">
+            <button className="btn btn-secondary btn-sm w-full absolute bottom-0 left-0 h-12">
               Count Activity
             </button>
           </div>

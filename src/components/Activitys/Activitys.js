@@ -13,7 +13,7 @@ const Activitys = () => {
       <div>
         <div className="parent">
           <div className="activity-container mt-20">
-            <h1 className="text-3xl font-bold text-primary">
+            <h1 className="text-3xl font-bold text-secondary">
               The Daily Activity
             </h1>
             <p className="text-lg font-bold py-2">Start Your Morning</p>
@@ -26,7 +26,7 @@ const Activitys = () => {
               ))}
             </div>
           </div>
-          <div className="info-container bg-secondary">
+          <div className="info-container bg-white border-4 shadow-xl">
             <InfoAdd></InfoAdd>
           </div>
         </div>
