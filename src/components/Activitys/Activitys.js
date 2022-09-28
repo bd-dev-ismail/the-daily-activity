@@ -4,11 +4,12 @@ import InfoAdd from '../InfoAdd/InfoAdd';
 import './Activitys.css';
 const Activitys = () => {
     const [activitys, setActivitys] = useState([]);
+    const [count, setCount] = useState([]);
     useEffect(()=>{
         fetch("activity.json")
           .then((res) => res.json())
           .then((data) => setActivitys(data));
-    },[])
+    },[]);
     return (
       <div>
         <div className="parent">
@@ -22,6 +23,8 @@ const Activitys = () => {
                 <ActivityItem
                   activity={activity}
                   key={activity.id}
+                  count={count}
+                  setCount={count}
                 ></ActivityItem>
               ))}
             </div>

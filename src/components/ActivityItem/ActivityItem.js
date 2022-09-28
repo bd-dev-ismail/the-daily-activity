@@ -1,7 +1,10 @@
 import React from 'react';
 import './ActivityItem.css';
-const ActivityItem = ({activity}) => {
+const ActivityItem = ({activity, count, setCount}) => {
    const {name, image, time, dsc} = activity;
+   const handalCount = () =>{
+    console.log('clicked');
+   }
   return (
     <div>
       <div className="card relative card-compact w-72 h-[400px] bg-base-100 shadow-xl">
@@ -12,10 +15,13 @@ const ActivityItem = ({activity}) => {
           <h2 className="card-title">{name}</h2>
           <p className="flex-grow-0">{dsc}</p>
           <p className="text-base">
-            Spend Time: <span className="font-bold">{time}</span>
+            Spend Time: <span className="font-bold">{time}m</span>
           </p>
           <div className="card-actions">
-            <button className="btn btn-secondary btn-sm w-full absolute bottom-0 left-0 h-12">
+            <button
+              onClick={handalCount}
+              className="btn btn-secondary btn-sm w-full absolute bottom-0 left-0 h-12"
+            >
               Count Activity
             </button>
           </div>
