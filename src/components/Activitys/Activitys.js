@@ -3,13 +3,16 @@ import ActivityItem from '../ActivityItem/ActivityItem';
 import InfoAdd from '../InfoAdd/InfoAdd';
 import './Activitys.css';
 const Activitys = () => {
+  const [breaktime, setBreakTime] = useState(0);
     const [activitys, setActivitys] = useState([]);
     const [cart, setCart] = useState([]);
+    
     useEffect(()=>{
         fetch("activity.json")
           .then((res) => res.json())
           .then((data) => setActivitys(data));
-    },[]);
+          localStorage.setItem("break-time", breaktime);
+    },[breaktime]);
     return (
       <div>
         <div className="parent">
@@ -30,8 +33,8 @@ const Activitys = () => {
             </div>
           </div>
           <div className="info-container bg-white border-4 shadow-xl">
-            <InfoAdd cart={cart}></InfoAdd>
-            <div className='p-6'>
+            <InfoAdd setBreakTime={setBreakTime}></InfoAdd>
+            <div className="p-6">
               <p className="text-xl font-bold">Activity Details</p>
               <div className="flex justify-around border rounded-md my-4 bg-slate-100 p-3">
                 <p className="font-bold">Activity Counter</p>
@@ -48,7 +51,9 @@ const Activitys = () => {
               </div>
               <div className="flex justify-around border rounded-md my-4 bg-slate-100 p-3">
                 <p className="font-bold">Break Counter</p>
-                <p>15 seconds</p>
+                <p>
+                  <span>{breaktime}</span> seconds
+                </p>
               </div>
               <div>
                 <button className="btn btn-outline btn-success w-full">
