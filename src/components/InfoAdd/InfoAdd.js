@@ -34,7 +34,7 @@ const InfoAdd = ({ setBreakTime, breaktime }) => {
         <div className="flex justify-around text-center items-center mt-4 text-lg  border rounded-md bg-slate-100 p-3">
           <div>
             <p>
-              <span className="font-bold">75</span>kg
+              <span className="font-bold">52</span>kg
             </p>
             <p>Weight</p>
           </div>

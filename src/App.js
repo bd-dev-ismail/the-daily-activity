@@ -6,6 +6,7 @@ function App() {
   return (
     <div className="App bg-base-200">
       <Activitys />
+      
     </div>
   );
 }

@@ -5,6 +5,7 @@ import ActivityItem from '../ActivityItem/ActivityItem';
 import InfoAdd from '../InfoAdd/InfoAdd';
 import './Activitys.css';
 import Swal from "sweetalert2";
+import Questions from '../Questions/Questions';
 
 const Activitys = () => {
     const [breaktime, setBreakTime] = useState('0');
@@ -50,6 +51,7 @@ const Activitys = () => {
                 ></ActivityItem>
               ))}
             </div>
+            <Questions />
           </div>
           <div className="info-container bg-white border-4 shadow-xl">
             <InfoAdd
@@ -67,7 +69,7 @@ const Activitys = () => {
                         parseInt(prev) + parseInt(current.time),
                       0
                     )}
-                  </span>{" "}
+                  </span>
                   seconds
                 </p>
               </div>
