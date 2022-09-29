@@ -2,6 +2,7 @@
     display: grid;
     grid-template-columns: 3fr 1fr;
     gap: 20px;
+    position: relative;
 }
 .activity-container{
     margin-left: 80px;
@@ -13,5 +14,21 @@
     .activity-container{
         margin-top: 20px;
         margin-left: 40px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .parent{
+        display: block;
+    }
+    .activity-container{
+        margin-top: 0;
+    }
+}
+@media (min-width: 1200px){
+    .info-container{
+        position: fixed;
+        right: 0;
+        height: 100vh;
+        top: 0;
     }
 }

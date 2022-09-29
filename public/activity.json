@@ -47,5 +47,13 @@
     "Age": "20-25",
     "time": "80",
     "image": "https://images.unsplash.com/photo-1577897113292-3b95936e5206?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=790&q=80"
+  },
+  {
+    "name": "Meet With Friends",
+    "id": 7,
+    "dsc": "Amet minim mollit non deseruntit mollit non deseruntit  aliqua dolor do",
+    "Age": "20-25",
+    "time": "90",
+    "image": "https://images.unsplash.com/photo-1536607774613-b287a2f4e698?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
   }
 ]
