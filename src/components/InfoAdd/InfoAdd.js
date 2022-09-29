@@ -4,11 +4,7 @@ import './InfoAdd.css';
 const InfoAdd = ({ setBreakTime, breaktime }) => {
   const handalBreak = (e) => {
     const newbreakTime = e.currentTarget.childNodes[0].childNodes[0].innerText;
-    const item = JSON.parse(localStorage.getItem("break-time"));
-    if(item){
-      setBreakTime([...breaktime, newbreakTime]);
-      return;
-    }
+    localStorage.setItem("break-time", JSON.stringify(newbreakTime));
     setBreakTime(newbreakTime);
   };
   return (

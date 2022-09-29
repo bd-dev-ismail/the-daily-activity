@@ -3,7 +3,7 @@ import ActivityItem from '../ActivityItem/ActivityItem';
 import InfoAdd from '../InfoAdd/InfoAdd';
 import './Activitys.css';
 const Activitys = () => {
-  const [breaktime, setBreakTime] = useState([]);
+    const [breaktime, setBreakTime] = useState('0');
     const [activitys, setActivitys] = useState([]);
     const [cart, setCart] = useState([]);
     
@@ -11,7 +11,15 @@ const Activitys = () => {
         fetch("activity.json")
           .then((res) => res.json())
           .then((data) => setActivitys(data));
-          const setLocal = localStorage.setItem("break-time", JSON.stringify(breaktime));
+          const old = JSON.parse(localStorage.getItem("break-time"));
+          if(old){
+            setBreakTime(old);
+            return;
+          }
+          else{
+            setBreakTime(breaktime);
+            return;
+          }
     },[breaktime]);
     return (
       <div>
