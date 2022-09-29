@@ -3,7 +3,7 @@ import ActivityItem from '../ActivityItem/ActivityItem';
 import InfoAdd from '../InfoAdd/InfoAdd';
 import './Activitys.css';
 const Activitys = () => {
-  const [breaktime, setBreakTime] = useState(0);
+  const [breaktime, setBreakTime] = useState([]);
     const [activitys, setActivitys] = useState([]);
     const [cart, setCart] = useState([]);
     
@@ -11,7 +11,7 @@ const Activitys = () => {
         fetch("activity.json")
           .then((res) => res.json())
           .then((data) => setActivitys(data));
-          localStorage.setItem("break-time", breaktime);
+          const setLocal = localStorage.setItem("break-time", JSON.stringify(breaktime));
     },[breaktime]);
     return (
       <div>
@@ -33,7 +33,10 @@ const Activitys = () => {
             </div>
           </div>
           <div className="info-container bg-white border-4 shadow-xl">
-            <InfoAdd setBreakTime={setBreakTime}></InfoAdd>
+            <InfoAdd
+              setBreakTime={setBreakTime}
+              breaktime={breaktime}
+            ></InfoAdd>
             <div className="p-6">
               <p className="text-xl font-bold">Activity Details</p>
               <div className="flex justify-around border rounded-md my-4 bg-slate-100 p-3">

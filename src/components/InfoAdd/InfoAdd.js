@@ -1,12 +1,16 @@
 
 import './InfoAdd.css';
 
-const InfoAdd = ({ setBreakTime }) => {
-  const handalBreak = (e) =>{
-      const breakTime = e.currentTarget.childNodes[0].childNodes[0].innerText;
-      setBreakTime(breakTime);
-      
-  }
+const InfoAdd = ({ setBreakTime, breaktime }) => {
+  const handalBreak = (e) => {
+    const newbreakTime = e.currentTarget.childNodes[0].childNodes[0].innerText;
+    const item = JSON.parse(localStorage.getItem("break-time"));
+    if(item){
+      setBreakTime([...breaktime, newbreakTime]);
+      return;
+    }
+    setBreakTime(newbreakTime);
+  };
   return (
     <>
       <div className="p-5">
