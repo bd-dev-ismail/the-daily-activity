@@ -24,7 +24,7 @@ const InfoAdd = ({ setBreakTime, breaktime }) => {
             <p className="text-base">Chittagong, Bangladesh</p>
           </div>
         </div>
-        <div className="flex justify-around items-center mt-4 text-lg  border rounded-md bg-slate-100 p-3">
+        <div className="flex justify-around text-center items-center mt-4 text-lg  border rounded-md bg-slate-100 p-3">
           <div>
             <p>
               <span className="font-bold">75</span> kg
