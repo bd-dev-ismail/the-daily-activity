@@ -11,7 +11,7 @@ const InfoAdd = ({ setBreakTime, breaktime }) => {
   return (
     <>
       <div className="p-5">
-        <div className="flex justify-center items-center py-4">
+        <div className="flex justify-center items-center">
           <div className="avatar placeholder px-3">
             <div className="bg-neutral-focus text-neutral-content rounded-full w-12">
               <img
