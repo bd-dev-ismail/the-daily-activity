@@ -1,3 +1,5 @@
+import { faChartPie } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React, { useEffect, useState } from 'react';
 import ActivityItem from '../ActivityItem/ActivityItem';
 import InfoAdd from '../InfoAdd/InfoAdd';
@@ -26,6 +28,10 @@ const Activitys = () => {
         <div className="parent">
           <div className="activity-container mt-20">
             <h1 className="text-3xl font-bold text-secondary">
+              <FontAwesomeIcon
+                icon={faChartPie}
+                className="mr-4"
+              ></FontAwesomeIcon>
               The Daily Activity
             </h1>
             <p className="text-lg font-bold py-2">Start Your Morning</p>

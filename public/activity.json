@@ -2,7 +2,7 @@
   {
     "name": "Meditation",
     "id": 1,
-    "dsc": "Amet minim mollit non deseruntit mollit non deseruntit  aliqua dolor do",
+    "dsc": "A day thinking about what could happen, should happen, or what might have been is a day missed",
     "Age": "20-25",
     "time": "30",
     "image": "https://images.unsplash.com/reserve/YEc7WB6ASDydBTw6GDlF_antalya-beach-lulu.jpg?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1001&q=80"
@@ -11,7 +11,7 @@
   {
     "name": "Gym",
     "id": 2,
-    "dsc": "Amet minim mollit non deseruntit mollit non deseruntit  aliqua dolor do",
+    "dsc": "If you want something youve never had, you must be willing to do something youve never done",
     "Age": "20-25",
     "time": "40",
     "image": "https://images.unsplash.com/photo-1614928228253-dc09cbc3b11c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
@@ -19,7 +19,7 @@
   {
     "name": "Breakfast",
     "id": 3,
-    "dsc": "Amet minim mollit non deseruntit mollit non deseruntit  aliqua dolor do",
+    "dsc": "I enjoyed my breakfast this morning, and I think that was a good thing and do not think it was condemned by God.",
     "Age": "20-25",
     "time": "50",
     "image": "https://images.unsplash.com/photo-1486590868314-c6c18732d981?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
@@ -27,7 +27,7 @@
   {
     "name": "Reading Book",
     "id": 4,
-    "dsc": "Amet minim mollit non deseruntit mollit non deseruntit  aliqua dolor do",
+    "dsc": "One glance at a book and you hear the voice of another person, perhaps someone dead for 1,000 years.",
     "Age": "20-25",
     "time": "60",
     "image": "https://images.unsplash.com/photo-1630343710506-89f8b9f21d31?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
@@ -35,7 +35,7 @@
   {
     "name": "Wrok From Home",
     "id": 5,
-    "dsc": "Amet minim mollit non deseruntit mollit non deseruntit  aliqua dolor do",
+    "dsc": "A dream does not become reality through magic; it takes sweat, determination, and hard work",
     "Age": "20-25",
     "time": "70",
     "image": "https://images.unsplash.com/photo-1583508915901-b5f84c1dcde1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
@@ -43,7 +43,7 @@
   {
     "name": "Playing With Family",
     "id": 6,
-    "dsc": "Amet minim mollit non deseruntit mollit non deseruntit  aliqua dolor do",
+    "dsc": "This is the real secret of life -- to be completely engaged with what you are doing in the here and now.",
     "Age": "20-25",
     "time": "80",
     "image": "https://images.unsplash.com/photo-1577897113292-3b95936e5206?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=790&q=80"
@@ -51,9 +51,25 @@
   {
     "name": "Meet With Friends",
     "id": 7,
-    "dsc": "Amet minim mollit non deseruntit mollit non deseruntit  aliqua dolor do",
+    "dsc": "A friend is one who overlooks your broken fence and admires the flowers in your garden",
     "Age": "20-25",
     "time": "90",
     "image": "https://images.unsplash.com/photo-1536607774613-b287a2f4e698?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+  },
+  {
+    "name": "Teaching Children",
+    "id": 8,
+    "dsc": " If you are planning for a year, sow rice; if you are planning for a decade, plant trees;",
+    "Age": "20-25",
+    "time": "100",
+    "image": "https://images.unsplash.com/photo-1629360021730-3d258452c425?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+  },
+  {
+    "name": "Dinner With Family",
+    "id": 9,
+    "dsc": "The dinner hour is a sacred, happy time when everyone should be together and relaxed.",
+    "Age": "20-25",
+    "time": "20",
+    "image": "https://images.unsplash.com/photo-1578496780896-7081cc23c111?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
   }
 ]

@@ -1,6 +1,7 @@
 
+import { faHouseUser } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './InfoAdd.css';
-
 const InfoAdd = ({ setBreakTime, breaktime }) => {
   const handalBreak = (e) => {
     const newbreakTime = e.currentTarget.childNodes[0].childNodes[0].innerText;
@@ -21,13 +22,19 @@ const InfoAdd = ({ setBreakTime, breaktime }) => {
           </div>
           <div>
             <p className="text-lg font-bold">Md Ismail Hossen</p>
-            <p className="text-base">Chittagong, Bangladesh</p>
+            <p className="text-base">
+              <FontAwesomeIcon
+                icon={faHouseUser}
+                className="text-accent mr-2"
+              ></FontAwesomeIcon>
+              Chittagong, Bangladesh
+            </p>
           </div>
         </div>
         <div className="flex justify-around text-center items-center mt-4 text-lg  border rounded-md bg-slate-100 p-3">
           <div>
             <p>
-              <span className="font-bold">75</span> kg
+              <span className="font-bold">75</span>kg
             </p>
             <p>Weight</p>
           </div>
@@ -37,7 +44,7 @@ const InfoAdd = ({ setBreakTime, breaktime }) => {
           </div>
           <div>
             <p>
-              <span className="font-bold">20</span> Years
+              <span className="font-bold">20</span>Years
             </p>
             <p>Age</p>
           </div>
