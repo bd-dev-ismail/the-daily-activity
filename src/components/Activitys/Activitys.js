@@ -4,6 +4,8 @@ import React, { useEffect, useState } from 'react';
 import ActivityItem from '../ActivityItem/ActivityItem';
 import InfoAdd from '../InfoAdd/InfoAdd';
 import './Activitys.css';
+import Swal from "sweetalert2";
+
 const Activitys = () => {
     const [breaktime, setBreakTime] = useState('0');
     const [activitys, setActivitys] = useState([]);
@@ -23,6 +25,9 @@ const Activitys = () => {
             return;
           }
     },[breaktime]);
+    const showToast = () =>{
+      Swal.fire("Hurray!!", "Activity Completed", "success");
+    }
     return (
       <div>
         <div className="parent">
@@ -73,7 +78,10 @@ const Activitys = () => {
                 </p>
               </div>
               <div>
-                <button className="btn btn-outline btn-success w-full">
+                <button
+                  onClick={showToast}
+                  className="btn btn-outline btn-success w-full"
+                >
                   Activity Completed
                 </button>
               </div>
